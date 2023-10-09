@@ -11,13 +11,96 @@
             
             p{
                 color: blue;
+                text-align: center;
+                font-weight: bold;
             }
 
+            /* sirve para poder darle color a las líneas y juntarlas */
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            table, th,td{
+                border: 1px solid black; 
+                border-collapse:collapse;
+            }
+
+            th{
+                background-color: gray;
+            }
+            
         </style>
     </head>
 
     <body>
+        <!--Títol -->
         <h1>Espai publicitari.</h1>
+
+        <!--Caption -->
         <p>Pròxims llaçaments de videojocs per al 2018.</p>
+
+        <div>
+            <!--Taula -->
+            <table>
+                <!-- Primera fila-->
+                <tr>
+                    <!-- Primera columna-->
+                    <th>
+                        Joc
+                    </th>
+
+                    <!-- Segona columna-->
+                    <th>
+                        Llançament
+                    </th>
+                    
+                    <!-- Tercera columna-->
+                    <th>
+                        Plataforma
+                    </th>
+                </tr>
+
+                <!-- Segona fila-->
+                <tr>
+                    <td>
+                        Resident Evil 2 (remake)
+                    </td>
+                    <td>
+                        25/01/2019
+                    </td>
+                    <td>
+                        PC, Ps4 Xbone
+                    </td>
+                </tr>
+
+                <!--Tercera fila-->
+                <tr>
+                    <td>
+                        Kindom Hearts III
+                    </td>
+                    <td>
+                        29/01/2019
+                    </td>
+                    <td>
+                        Ps4 Xbone
+                    </td>
+                </tr>
+
+                <!--Quarta fila-->
+                <tr>
+                    <td>
+                        Sid Meier's Civilization VI: Gathering Storm
+                    </td>
+                    <td>
+                        14/02/2019
+                    </td>
+                    <td>
+                        PC
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
